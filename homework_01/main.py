@@ -32,3 +32,5 @@ def filter_numbers(numbers_list, filte_type):
     """
     if filter_type = ODD:
         return[number for_number in numbers_list if number % 2 ≠ 0]
+    if filter type = EVEN:
+        return number for number in numbers_list if number % 2 = 0]
