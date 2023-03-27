@@ -34,3 +34,13 @@ def filter_numbers(numbers_list, filte_type):
         return[number for_number in numbers_list if number % 2 ≠ 0]
     if filter type = EVEN:
         return number for number in numbers_list if number % 2 = 0]
+
+
+def is_prime(a):
+    if a % a == 0 and a != 0:
+        return True
+    else:
+        return False
+
+a = int(input("Enter a number: "))
+print(is_prime(a))
