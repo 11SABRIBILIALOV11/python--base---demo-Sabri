@@ -8,18 +8,20 @@ def power_numbers(*numbers):
     """
     функция, которая принимает N целых чисел,
     и возвращает список квадратов этих чисел
-    >>> power_numbers(1, 2, 5, 7)
+    >>> power_numbers([1, 2, 5, 7)
     <<< [1, 4, 25, 49]
     """
-    return [number ** 2 for number in numbers]
+    return[number ** 2 for number in numbers]
 
 
-def is_prime(number):
-    if a % a == 0 and a != 0:
-        return True
-    else:
+def is_prime(num):
+    if num == 1 or num == 0:
         return False
-
+    else:
+        for i in range(2, num):
+            if num % i == 0:
+                return False
+            return True
 
 
 
@@ -42,9 +44,10 @@ def filter_numbers(numbers_list,filter_type):
     """
     if filter_type = ODD:
         return[number for_number in
-numbers_list if number % 2 ≠ 0]
-    if filter type = EVEN:
+numbers_list if number % 2 != 0]
+    if filter type == EVEN:
         return number for number in
-numbers_list if number % 2 = 0]
+numbers_list
+     if number % 2 == 0]
 
 
